@@ -4,7 +4,8 @@
   "description": "instagram chatbot by venomexe",
   "main": "main.js",
   "scripts": {
-    "run": "node main.js"
+    "run": "node main.js",
+    "start": "node main.js"
   },
   "author": "venom-exe",
   "license": "GNU",
