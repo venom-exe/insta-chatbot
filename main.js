@@ -20,4 +20,4 @@ client.on('messageCreate', (message) => {
     }).catch(err => {});
 });
 
-client.login('venomexe_op', 'toxic.40.25');
+client.login('<insta-username>', '<insta-password>');
