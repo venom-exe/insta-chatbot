@@ -8,6 +8,16 @@
 # SETUP
 
 [CLICK ME TO WATCH THE VIDEO ON HOW TO SETUP](https://youtube.com/c/VenomExE)
+```js
+1) COPY THIS LINK :- https://github.com/venom-exe/insta-chatbot
+2) GOTO https://replit.com
+3) CREATE A ACCOUNT.
+4) CLICK ON + ICON ALSO KNOWN AS NEW REPL OR CREATE NEW REPL
+5) TYPE npm i IN THE CONSOLE AREA & HIT ENTER.
+6) TYPE YOUR USERNAME & PASSWORD IN main.js FILE.
+7) CLICK ON PLAY/RUN ICON.
+THAT'S IT HAVE FUN WITH YOUR CHATBOT
+```
 
 **CHECK OUT OUR DISCORD BOTS :-**</p>
 REXZ:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=856741116912861276&permissions=261993005047&scope=bot)
