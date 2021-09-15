@@ -1,0 +1,16 @@
+declare class BaseError extends Error {
+    constructor(message?: string);
+}
+export declare class ClientDisconnectedError extends BaseError {
+}
+export declare class EmptyPacketError extends BaseError {
+}
+export declare class InvalidStateError extends BaseError {
+}
+export declare class ConnectionFailedError extends BaseError {
+}
+export declare class IllegalArgumentError extends BaseError {
+}
+export declare class ThriftError extends BaseError {
+}
+export {};

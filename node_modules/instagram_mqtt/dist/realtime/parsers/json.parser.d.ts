@@ -1,0 +1,6 @@
+/// <reference types="node" />
+import { ParsedMessage, Parser } from './parser';
+import { Topic } from '../../topic';
+export declare class JsonParser implements Parser<any> {
+    parseMessage(topic: Topic, payload: Buffer): ParsedMessage<any>;
+}

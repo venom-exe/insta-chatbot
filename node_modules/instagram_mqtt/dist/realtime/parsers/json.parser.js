@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.JsonParser = void 0;
+class JsonParser {
+    parseMessage(topic, payload) {
+        return { topic, data: payload.length > 0 ? JSON.parse(payload.toString()) : {} };
+    }
+}
+exports.JsonParser = JsonParser;
+//# sourceMappingURL=json.parser.js.map

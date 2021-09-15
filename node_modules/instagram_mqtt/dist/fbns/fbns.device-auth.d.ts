@@ -1,0 +1,17 @@
+import { IgApiClient } from 'instagram-private-api';
+export declare class FbnsDeviceAuth {
+    private authLog;
+    clientId: string;
+    userId: number;
+    password: string;
+    deviceId: string;
+    deviceSecret: string;
+    sr: string;
+    rc: string;
+    private json?;
+    private ig;
+    constructor(ig: IgApiClient);
+    update(): void;
+    read(jsonStr: string): void;
+    toString(): string;
+}

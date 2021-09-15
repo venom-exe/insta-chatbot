@@ -1,0 +1,15 @@
+/// <reference types="node" />
+import { ParsedMessage, Parser } from './parser';
+import { Topic } from '../../topic';
+export declare class IrisParser implements Parser<IrisParserData> {
+    parseMessage(topic: Topic, payload: Buffer): ParsedMessage<IrisParserData>[];
+}
+export interface IrisParserData {
+    event: 'patch' | string;
+    data: any[];
+    message_type: number;
+    seq_id: number;
+    mutation_token: null | string;
+    realtime: boolean;
+    sampled?: boolean;
+}

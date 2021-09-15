@@ -1,0 +1,12 @@
+/// <reference types="node" />
+import { ParsedMessage, Parser } from './parser';
+import { Topic } from '../../topic';
+import { ThriftToObjectResult } from '../../thrift';
+export declare class SkywalkerParser implements Parser<ThriftToObjectResult<SkywalkerResult>> {
+    static descriptors: import("../../thrift").ThriftPacketDescriptor[];
+    parseMessage(topic: Topic, payload: Buffer): ParsedMessage<ThriftToObjectResult<SkywalkerResult>>;
+}
+export interface SkywalkerResult {
+    topic: number;
+    payload: string;
+}

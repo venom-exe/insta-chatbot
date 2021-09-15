@@ -1,0 +1,12 @@
+/// <reference types="node" />
+import { ParsedMessage, Parser } from './parser';
+import { Topic } from '../../topic';
+import { ThriftToObjectResult } from '../../thrift';
+export declare class RegionHintParser implements Parser<ThriftToObjectResult<{
+    hint: string;
+}>> {
+    static descriptors: import("../../thrift").ThriftPacketDescriptor[];
+    parseMessage: (topic: Topic, payload: Buffer) => ParsedMessage<ThriftToObjectResult<{
+        hint: string;
+    }>>;
+}

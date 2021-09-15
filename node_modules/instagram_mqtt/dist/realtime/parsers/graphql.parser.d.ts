@@ -1,0 +1,15 @@
+/// <reference types="node" />
+import { ParsedMessage, Parser } from './parser';
+import { Topic } from '../../topic';
+import { ThriftPacketDescriptor } from '../../thrift';
+export declare class GraphqlParser implements Parser<GraphQlMessage> {
+    static descriptors: ThriftPacketDescriptor[];
+    parseMessage(topic: Topic, payload: Buffer): ParsedMessage<GraphQlMessage>;
+}
+export interface GraphQlMessage {
+    message: string | {
+        topic: string;
+        payload: string;
+        json: any;
+    };
+}

@@ -1,0 +1,30 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.ThriftError = exports.IllegalArgumentError = exports.ConnectionFailedError = exports.InvalidStateError = exports.EmptyPacketError = exports.ClientDisconnectedError = void 0;
+class BaseError extends Error {
+    constructor(message) {
+        super(message);
+        // @ts-ignore -- set the name to the class's actual name
+        this.name = this.__proto__.constructor.name;
+    }
+}
+class ClientDisconnectedError extends BaseError {
+}
+exports.ClientDisconnectedError = ClientDisconnectedError;
+class EmptyPacketError extends BaseError {
+}
+exports.EmptyPacketError = EmptyPacketError;
+class InvalidStateError extends BaseError {
+}
+exports.InvalidStateError = InvalidStateError;
+class ConnectionFailedError extends BaseError {
+}
+exports.ConnectionFailedError = ConnectionFailedError;
+class IllegalArgumentError extends BaseError {
+}
+exports.IllegalArgumentError = IllegalArgumentError;
+// TODO: split further
+class ThriftError extends BaseError {
+}
+exports.ThriftError = ThriftError;
+//# sourceMappingURL=index.js.map

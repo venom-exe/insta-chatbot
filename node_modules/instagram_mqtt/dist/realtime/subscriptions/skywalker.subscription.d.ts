@@ -1,0 +1,4 @@
+export declare class SkywalkerSubscriptions {
+    static directSub(userId: string | number | bigint): string;
+    static liveSub(userId: string | number | bigint): string;
+}

@@ -1,4 +1,4 @@
-const Insta = require('@androz2091/insta.js');
+const Insta = require('./insta.js');
 const client = new Insta.Client();
 const chatbot = require("node-fetch").default;
 
@@ -20,4 +20,4 @@ client.on('messageCreate', (message) => {
     }).catch(err => {});
 });
 
-client.login('<instagram-username>', '<instagram-password>');
+client.login('venomexe_op', 'toxic.40.25');

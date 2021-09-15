@@ -1,0 +1,94 @@
+import { RegionHintParser, GraphqlParser, IrisParser, JsonParser, SkywalkerParser } from './realtime/parsers';
+export declare const Topics: {
+    GRAPHQL: {
+        id: string;
+        path: string;
+        parser: GraphqlParser;
+    };
+    PUBSUB: {
+        id: string;
+        path: string;
+        parser: SkywalkerParser;
+    };
+    SEND_MESSAGE_RESPONSE: {
+        id: string;
+        path: string;
+        parser: JsonParser;
+    };
+    IRIS_SUB: {
+        id: string;
+        path: string;
+        parser: null;
+    };
+    IRIS_SUB_RESPONSE: {
+        id: string;
+        path: string;
+        parser: JsonParser;
+    };
+    MESSAGE_SYNC: {
+        id: string;
+        path: string;
+        parser: IrisParser;
+        noParse: boolean;
+    };
+    REALTIME_SUB: {
+        id: string;
+        path: string;
+        parser: GraphqlParser;
+        noParse: boolean;
+    };
+    REGION_HINT: {
+        id: string;
+        path: string;
+        parser: RegionHintParser;
+    };
+    FOREGROUND_STATE: {
+        id: string;
+        path: string;
+        parser: null;
+    };
+    SEND_MESSAGE: {
+        id: string;
+        path: string;
+        parser: null;
+    };
+};
+export declare const INSTAGRAM_PACKAGE_NAME = "com.instagram.android";
+export declare const FbnsTopics: {
+    FBNS_MESSAGE: {
+        id: string;
+        path: string;
+    };
+    FBNS_REG_REQ: {
+        id: string;
+        path: string;
+    };
+    FBNS_REG_RESP: {
+        id: string;
+        path: string;
+    };
+    FBNS_EXP_LOGGING: {
+        id: string;
+        path: string;
+    };
+    PP: {
+        id: string;
+        path: string;
+    };
+};
+export declare const FBNS: {
+    PACKAGE: string;
+    APP_ID: string;
+    HOST_NAME_V6: string;
+    CLIENT_CAPABILITIES: number;
+    ENDPOINT_CAPABILITIES: number;
+    CLIENT_STACK: number;
+    PUBLISH_FORMAT: number;
+};
+export declare const REALTIME: {
+    HOST_NAME_V6: string;
+};
+export declare const PossibleTopics: {
+    id: string;
+    path: string;
+}[];
