@@ -13,7 +13,7 @@ client.on('messageCreate', (message) => {
     if(message.content.toLowerCase().includes('hi')){ 
         return message.chat.sendMessage('VENOM IS MY DEVELOPER CHECK OUT HIS CHANNEL :- https://youtube.com/c/VenomExE');
     } else
-    chatbot(`https://kukichatai.vercel.app/message=${encodeURIComponent(message.content)}`)
+    chatbot(`https://brv-chat.vercel.app/api?message=${encodeURIComponent(message.content)}`)
     .then(res => res.json())
     .then(json => {
       message.chat.sendMessage(json.reply);
