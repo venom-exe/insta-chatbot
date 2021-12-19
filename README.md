@@ -29,25 +29,19 @@ username=your_username
 password=your_password"
 ```
 
-**CHECK OUT OUR DISCORD BOTS :-**</p>
-REXZ:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=856741116912861276&permissions=261993005047&scope=bot)
-
-LEGION:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=843638969639239711&permissions=261993005047&scope=bot)
-
-MR. BINNER:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=878935393360293908&permissions=261993005047&scope=bot)
-
-ROSE:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=879589599062679552&permissions=261993005047&scope=bot)
-
-ULTRON:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=782555605076279316&permissions=261993005047&scope=bot)
+## CHECK OUT OUR DISCORD BOTS
+* [REXZ](https://discord.com/oauth2/authorize?client_id=856741116912861276&permissions=261993005047&scope=bot)
+* [LEGION](https://discord.com/oauth2/authorize?client_id=843638969639239711&permissions=261993005047&scope=bot)
+* [MR. BINNER](https://discord.com/oauth2/authorize?client_id=878935393360293908&permissions=261993005047&scope=bot)
+* [ROSE](https://discord.com/oauth2/authorize?client_id=879589599062679552&permissions=261993005047&scope=bot)
+* [DARK MATTER](https://discord.com/api/oauth2/authorize?client_id=860020302766145597&permissions=8&scope=bot)
 
 ## CONTACT HERE
-
 ###### Discord: `@BЯΛVΣ丶Venom OP 🍷#8342`. 
 ###### Telegram: `@Venom_OP_Boi`.
 ###### Instagram: `itz_me_omjee`.
 
-## CHECK OUT OUR SOCIAL
-
+## CHECK OUT MY SOCIAL
 * [DISCORD](https://discord.gg/cuBErWDy68) - DISCORD SUPPORT SERVER
 * [DISCORD COMMUNITY](https://discord.gg/u6QxkmKNu3) - DISCORD COMMUNITY/CHILL SERVER
 * [TELEGRAM](https://t.me/ErrorCarders) - TELEGRAM CHANNEL
