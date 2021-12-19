@@ -40,10 +40,17 @@ ROSE:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=87958959906267
 
 ULTRON:- [INVITE ME](https://discord.com/oauth2/authorize?client_id=782555605076279316&permissions=261993005047&scope=bot)
 
+## CONTACT HERE
 
-## CHECK OUT OUR SOCIAL NETWORKS
+###### Discord: `@BЯΛVΣ丶Venom OP 🍷#8342`. 
+###### Telegram: `@Venom_OP_Boi`.
+###### Instagram: `itz_me_omjee`.
+
+## CHECK OUT OUR SOCIAL
 
 * [DISCORD](https://discord.gg/cuBErWDy68) - DISCORD SUPPORT SERVER
-* [DISCORD COMMUNITY](https://discord.gg/DJRUcDHCKv) - DISCORD COMMUNITY/CHILL SERVER
+* [DISCORD COMMUNITY](https://discord.gg/u6QxkmKNu3) - DISCORD COMMUNITY/CHILL SERVER
+* [TELEGRAM](https://t.me/ErrorCarders) - TELEGRAM CHANNEL
+* [GITHUB](https://github.com/venom-exe) - OFFICIAL GITHUB ACCOUNT
 * [YOUTUBE](https://www.youtube.com/c/VenomExE/) - MY YOUTUBE CHANNEL
 * [INSTAGRAM](https://instagram.com/itz_me_venomop) - MY INSTAGRAM PROFILE
